@@ -1,3 +1,11 @@
+---
+title: Auto Read
+emoji: 🐳
+colorFrom: purple
+colorTo: gray
+sdk: docker
+app_port: 7860
+---
 [英文文档](./README_en.md)
 
 ## 使用方法一：油猴脚本
@@ -125,8 +133,14 @@ external 是作为 puppeteer 的脚本使用的，由 index_passage_list.js 改�
 #### 待做
 
 1. TimeoutError 时候可以捕获错误然后关掉当前浏览器重新再开一次
+2. 自动阅读脚本可以加一个阅读速度选项（快，慢，始终），因为有用户反应读的太快了（应该是他们屏幕太小）
+3. https://github.com/14790897/auto-read-liunxdo/issues/67
 
-#### 使用index_likeUser点赞记录
+## 感谢
+
+https://linux.do/t/topic/106471
+
+#### 使用 index_likeUser 点赞记录
 
 9.2 handsome
 9.3 lwyt
@@ -161,6 +175,13 @@ external 是作为 puppeteer 的脚本使用的，由 index_passage_list.js 改�
 10.4 jeff0319 Game0526 LeoMeng
 10.5 kobe1 pangbaibai
 10.6 xfgb lentikr
+10.7 PlayMcBKuwu Tim88
+10.10 elfmaid
+10.11 yu_sheng orxvan l444736 time-wanderer
+10.14 time-wanderer OrangeQiu
+Timmy_0
+SINOPEC
+onePiece HelShiJiasi delph1s
 
 <!--
 代码：
